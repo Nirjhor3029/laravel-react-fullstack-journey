@@ -60,7 +60,7 @@ laravel-react-fullstack-journey/
 
 # 📅 Week 1 — PHP OOP + React Basics
 
-## Day 1
+## [Day 1](./day-1/)
 
 * Laravel/PHP: Classes, objects, constructor, access modifiers
 * React: JSX, components
