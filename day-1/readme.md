@@ -29,9 +29,9 @@ Welcome to Day 1 of your fullstack journey! Today we're building the foundation.
 
 ---
 
-## Part 1: PHP OOP Deep Dive (3 Hours)
+## 🐘 Part 1: PHP OOP Deep Dive (3 Hours)
 
-### Topic 1: Class & Object
+### 🐘 Topic 1: Class & Object
 
 In PHP, a **class** is a blueprint, and an **object** is a real instance created from that blueprint.
 
@@ -70,7 +70,7 @@ echo $user->getName(); // Output: Nirjhor
 
 ---
 
-### Topic 2: Access Modifiers
+### 🐘 Topic 2: Access Modifiers
 
 Access modifiers control where properties and methods can be accessed.
 
@@ -111,7 +111,7 @@ $account->deposit(1000);
 
 ---
 
-### Topic 3: Constructor
+### 🐘 Topic 3: Constructor
 
 A **constructor** is a special method that runs automatically when an object is created.
 
@@ -143,7 +143,7 @@ echo $user->introduce();
 
 ---
 
-### Topic 4: Encapsulation Mindset
+### 🐘 Topic 4: Encapsulation Mindset
 
 **Encapsulation** is the practice of controlling access to data by wrapping it in methods rather than exposing it directly. This protects your data and gives you control over how it's modified.
 
@@ -193,7 +193,7 @@ echo $wallet->getBalance(); // 700
 
 ---
 
-### Practice Exercise: Build a Payment Class System
+### 🐘 Practice Exercise: Build a Payment Class System
 
 Let's build a professional Payment class to practice encapsulation:
 
@@ -242,7 +242,7 @@ print_r($payment->getSummary());
 
 ---
 
-### Topic 5: Methods in Classes
+### 🐘 Topic 5: Methods in Classes
 
 ```php
 <?php
@@ -280,7 +280,7 @@ echo $calc->multiply(4, 5);    // 20
 
 ---
 
-### Topic 6: Inheritance
+### 🐘 Topic 6: Inheritance
 
 Inheritance allows a class to inherit properties and methods from another class.
 
@@ -327,7 +327,7 @@ echo $cat->speak(); // Whiskers says Meow!
 
 ---
 
-### Topic 6: Static Methods and Properties
+### 🐘 Topic 7: Static Methods and Properties
 
 Static members belong to the class itself, not to any object instance.
 
@@ -352,7 +352,7 @@ echo Configuration::getAppInfo();        // MyApp v1.0.0
 
 ---
 
-### Practice Exercise 1
+### 🐘 Practice Exercise 1
 
 Create a PHP class called `Product` with:
 - Properties: `name`, `price`, `quantity`
@@ -399,9 +399,9 @@ echo $laptop->displayInfo();
 
 ---
 
-## Part 2: React Fundamentals (1 Hour)
+## ⚛️ Part 2: React Fundamentals (1 Hour)
 
-### Topic 1: What is JSX?
+### ⚛️ Topic 1: What is JSX?
 
 JSX is a syntax extension that lets you write HTML-like code in JavaScript.
 
@@ -422,7 +422,7 @@ const element = <h1>Hello, World!</h1>;
 
 ---
 
-### Topic 2: Creating Your First Component
+### ⚛️ Topic 2: Creating Your First Component
 
 A React component is a reusable piece of UI.
 
@@ -451,7 +451,7 @@ function App() {
 
 ---
 
-### Topic 3: Props - Passing Data to Components
+### ⚛️ Topic 3: Props - Passing Data to Components
 
 **Props** (short for properties) are how you pass data from parent to child components.
 
@@ -475,7 +475,7 @@ function App() {
 
 ---
 
-### Topic 4: Destructuring Props
+### ⚛️ Topic 4: Destructuring Props
 
 Cleaner way to access props:
 
@@ -496,7 +496,7 @@ function Greeting({ name, age }) {
 
 ---
 
-### Topic 5: Default Props
+### ⚛️ Topic 5: Default Props
 
 Set default values when props are not provided:
 
@@ -512,7 +512,7 @@ function Greeting({ name = 'Guest', age = 18 }) {
 
 ---
 
-### Practice Exercise 2
+### ⚛️ Practice Exercise 2
 
 Create a React component called `ProductCard` that displays:
 - Product name
