@@ -30,6 +30,22 @@ A 12-week structured learning roadmap to become a professional full stack engine
 - Docker
 - GitHub Actions
 
+# 🗂️ Starter Folder Skeleton
+
+```bash
+laravel-react-fullstack-journey/
+├── README.md
+├── day-1/
+│   ├── php-oop/
+│   ├── react-payment-ui/
+│   ├── notes.md
+│   └── interview-qa.md
+├── mini-projects/
+├── notes/
+└── interview-prep/
+```
+---
+
 
 
 # 🚀 12 Weeks Integrated Laravel + React Roadmap (70% Laravel / 30% React)
@@ -512,55 +528,4 @@ This is the fastest path to become **job-ready full stack Laravel + React engine
 
 ---
 
-# 📘 Professional README Template
 
-Use this in your main GitHub repo README.md
-
-```md
-# Laravel + React Full Stack Journey
-
-A 12-week structured learning roadmap to become a professional full stack engineer.
-
-## 🎯 Goals
-- Laravel expert backend development
-- React professional dashboard UI
-- Clean architecture
-- Testing and CI/CD
-- Deployment and DevOps
-- Interview preparation
-
-## 📅 Progress Tracker
-- [x] Day 1 — PHP OOP + React Components
-- [ ] Day 2 — Inheritance + Props Deep Dive
-- [ ] Day 3 — Abstraction + State
-
-## 📁 Folder Structure
-- day-wise practice
-- mini-projects
-- notes
-- interview prep
-
-## 🚀 Tech Stack
-- PHP
-- Laravel
-- React
-- MySQL
-- Redis
-- Docker
-- GitHub Actions
-```
-
-# 🗂️ Starter Folder Skeleton
-
-```bash
-laravel-react-fullstack-journey/
-├── README.md
-├── day-1/
-│   ├── php-oop/
-│   ├── react-payment-ui/
-│   ├── notes.md
-│   └── interview-qa.md
-├── mini-projects/
-├── notes/
-└── interview-prep/
-```
