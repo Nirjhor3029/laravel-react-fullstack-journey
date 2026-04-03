@@ -1,1 +1,25 @@
-fix learning.md as md file and make as tutorials. and include all definations example and so on just think like you are a mentor and you are teaching me.
+Topic 2: Creating Your First Component
+A React component is a reusable piece of UI.
+
+// Functional Component
+function Welcome() {
+    return <h1>Hello, Welcome!</h1>;
+}
+
+// Arrow Function Component
+const Welcome = () => {
+    return <h1>Hello, Welcome!</h1>;
+};
+
+// Using the component
+function App() {
+    return (
+        <div>
+            <Welcome />
+            <Welcome />
+            <Welcome />
+        </div>
+    );
+}
+
+how can i run it. ? 
