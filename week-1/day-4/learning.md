@@ -474,7 +474,7 @@ class User
         return $this;
     }
 
-    public function __callStatic($name, $arguments)
+    public static function __callStatic($name, $arguments)
     {
         echo "Static call: $name\n";
     }
