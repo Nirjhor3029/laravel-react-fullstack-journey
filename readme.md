@@ -529,3 +529,131 @@ This is the fastest path to become **job-ready full stack Laravel + React engine
 ---
 
 
+
+
+
+✅ Laravel + React Roadmap এ কোথায় এগুলো আছে
+Phase 1 → PHP OOP Foundation (Already started)
+
+এখানে cover হবে:
+
+Class / Object
+Inheritance
+Method overriding
+Polymorphism
+Abstract class
+Interface
+Static method
+Scope resolution
+Magic methods
+Traits
+SOLID basics
+
+👉 আজকে যেটা overloading / overriding শিখলা এটা এই phase
+
+এটা skip করা যাবে না.
+
+Phase 2 → Laravel Core OOP Mapping
+
+এখানে PHP OOP জিনিস Laravel এ map হবে.
+
+এখানে আসবে:
+Service Container
+Dependency Injection
+Interface binding
+Repository pattern
+DTO
+Service layer
+Form Request
+Policies
+Middleware
+Exception handler overriding
+
+👉 OOP real project use এখানেই clear হবে
+
+Phase 3 → Eloquent Deep Dive ⭐
+
+তোমার current question (static::creating) এই phase এ perfectly fit করে.
+
+এখানে থাকবে:
+
+Models
+Relationships
+Accessors / Mutators
+Model events
+boot()
+creating
+saving
+updating
+observers
+scopes
+casts
+UUID / slug auto generation
+
+👉 এই phase এ static::creating() fully clear হয়ে যাবে
+
+Phase 4 → Advanced Laravel Architecture
+
+এখানে:
+
+Events & listeners
+queues
+jobs
+caching
+scalable architecture
+clean service layer
+domain separation
+package style coding
+
+এই phase এ model events এর advanced use হবে.
+
+Phase 5 → React Integration
+
+এখানে backend concepts frontend এ connect হবে:
+
+Laravel API
+resource controllers
+DTO response
+auth flow
+React forms
+slug auto preview
+validation errors
+CRUD flow
+🎯 তোমার জন্য best serial learning
+
+তুমি serially এই order follow করো:
+
+Current
+
+✅ PHP OOP
+
+Next
+
+✅ Laravel core basics
+
+Then
+
+⭐ Eloquent lifecycle
+
+Then
+
+⭐ API + React CRUD
+
+🔥 তোমার জন্য best advice
+
+তুমি এখন random topic jump না করে roadmap serially follow করো.
+
+কারণ তুমি আজ যেটা জিজ্ঞেস করলা:
+
+static::creating
+
+এটা বুঝতে হলে আগে দরকার:
+
+static
+inheritance
+overriding
+callback
+closure
+model lifecycle
+
+সব serially build হয়.

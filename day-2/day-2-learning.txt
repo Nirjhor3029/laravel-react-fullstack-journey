@@ -1,0 +1,286 @@
+আজ Day 2 = OOP Inheritance + Polymorphism + React Props Deep Dive
+এটা Laravel architecture এর জন্য super critical foundation.
+
+আজকের concept গুলো পরে use হবে:
+
+Laravel services
+notification channels
+payment gateways
+strategy pattern
+repository extensions
+React reusable dashboard cards
+
+⏱️ Total: 4 hours
+
+Laravel/PHP → 3h
+React → 1h
+🎯 Day 2 Outcome
+
+আজকের শেষে তুমি পারবা:
+
+inheritance use করে clean code reuse
+method overriding
+polymorphism basics
+parent-child design
+React props deep understanding
+dynamic reusable UI blocks
+same data multiple components এ pass করা
+🧠 Part 1 — PHP OOP (3 Hours)
+📚 Topic 1: Inheritance
+
+একটা class এর feature আরেকটা class reuse করা.
+
+class User
+{
+    public $name = "Nirjhor";
+
+    public function getName()
+    {
+        return $this->name;
+    }
+}
+
+class Admin extends User
+{
+}
+
+Use:
+
+$admin = new Admin();
+echo $admin->getName();
+
+✅ Admin এখন User এর সব property + method use করতে পারবে.
+
+🎯 Why Important For Laravel
+
+Laravel এ inheritance everywhere:
+
+Controller extends BaseController
+Model extends Eloquent
+Mailable extends Mailable
+Command extends Command
+
+মানে Laravel বুঝতে inheritance must.
+
+📚 Topic 2: Method Overriding
+
+Child class parent method change করতে পারে.
+
+class User
+{
+    public function role()
+    {
+        return "User";
+    }
+}
+
+class Admin extends User
+{
+    public function role()
+    {
+        return "Admin";
+    }
+}
+📚 Topic 3: Parent Keyword
+
+Parent method reuse + extend.
+
+class User
+{
+    public function greet()
+    {
+        return "Hello";
+    }
+}
+
+class Admin extends User
+{
+    public function greet()
+    {
+        return parent::greet() . " Admin";
+    }
+}
+📚 Topic 4: Polymorphism Intro
+
+Same method → different behavior.
+
+class Payment
+{
+    public function pay()
+    {
+        return "Base payment";
+    }
+}
+
+class BkashPayment extends Payment
+{
+    public function pay()
+    {
+        return "Paid via Bkash";
+    }
+}
+
+class CardPayment extends Payment
+{
+    public function pay()
+    {
+        return "Paid via Card";
+    }
+}
+
+Use:
+
+$payments = [
+    new BkashPayment(),
+    new CardPayment()
+];
+
+foreach ($payments as $payment) {
+    echo $payment->pay();
+}
+
+🔥 এটা later Strategy Pattern এর foundation.
+
+🛠 Day 2 PHP Mini Project
+✅ Notification System
+
+Build this:
+
+class Notification
+{
+    public function send()
+    {
+        return "Base notification";
+    }
+}
+
+Extend:
+
+EmailNotification
+SMSNotification
+PushNotification
+
+Each should override send()
+
+Example:
+
+echo (new EmailNotification())->send();
+
+Expected:
+
+Email sent successfully
+⚛️ Part 2 — React (1 Hour)
+
+আজ focus:
+
+Props Deep Dive + Component Reuse
+
+📚 Topic 1: Dynamic Props
+function UserCard({ name, role }) {
+  return (
+    <div>
+      <h2>{name}</h2>
+      <p>{role}</p>
+    </div>
+  );
+}
+
+Use:
+
+<UserCard name="Nirjhor" role="Admin" />
+<UserCard name="Sazzad" role="Developer" />
+📚 Topic 2: Reusable Dashboard Cards
+
+Professional React এ এই pattern অনেক use হয়.
+
+function StatCard({ title, count }) {
+  return (
+    <div>
+      <h3>{title}</h3>
+      <p>{count}</p>
+    </div>
+  );
+}
+
+Use:
+
+<StatCard title="Users" count={120} />
+<StatCard title="Jobs" count={500} />
+🛠 React Task
+
+আজ PHP notification idea এর UI বানাবে.
+
+function NotificationCard({ type, message }) {
+  return (
+    <div>
+      <h2>{type}</h2>
+      <p>{message}</p>
+    </div>
+  );
+}
+
+Use:
+
+<NotificationCard type="Email" message="Email sent successfully" />
+🏗️ Day 2 Full Mini Project
+✅ “Multi Notification Preview System”
+PHP
+parent Notification
+Email/SMS/Push child classes
+method override
+React
+NotificationCard
+multiple cards
+dynamic props
+📝 GitHub Folder Structure
+day-2/
+ ├── php-inheritance/
+ │   └── Notification.php
+ ├── react-notification-ui/
+ ├── notes.md
+ └── interview-qa.md
+
+Commit:
+
+git add .
+git commit -m "Day 2: inheritance polymorphism and reusable React props"
+🎤 Day 2 Interview Questions
+
+আজ এগুলা নিজের language এ লিখবা.
+
+PHP
+inheritance কেন use হয়?
+method overriding কী?
+parent:: কখন use হয়?
+polymorphism real use case?
+Laravel এ inheritance কোথায় use হয়?
+React
+props কী?
+reusable component benefit?
+hardcoded vs dynamic component?
+same component multiple data কেন useful?
+🧠 Mentor-Level Thinking Task
+
+আজকের সবচেয়ে important thinking:
+
+One interface, many behaviors
+
+Example:
+
+Payment → bkash/card/nagad
+Notification → email/sms/push
+User → admin/customer/vendor
+
+এই চিন্তা Laravel service layer এ huge role play করবে.
+
+🔥 Mentor Advice
+
+আজ perfect UI না, reusability mindset build করো.
+
+আজকের পরে তুমি বুঝতে শুরু করবে:
+
+Laravel services and React reusable dashboard cards work with same engineering mindset.
+
+এটাই full stack engineering thinking.
+
+Day 2 finish হলে next আমরা Day 3: Abstraction + Interfaces + React State Management Intro এ যাবো, যেটা Laravel expert হওয়ার backbone.
