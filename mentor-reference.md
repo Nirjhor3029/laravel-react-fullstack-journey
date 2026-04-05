@@ -15,6 +15,7 @@ Each day contains:
 3. **interview-qa.md** - Interview questions and answers
 4. **notes.md** - For your personal notes
 5. **readme.md** - Quick overview
+6. **resources.md** - Free learning resources (videos + articles)
 
 ### Key Teaching Principles
 1. Start with interview definition (English)
@@ -50,7 +51,8 @@ week-1/day-X/
 ├── learning.md (I create)
 ├── interview-qa.md (I create)
 ├── notes.md (empty, for you)
-└── readme.md (I create)
+├── readme.md (I create)
+└── resources.md (free videos & articles)
 ```
 
 ### What You DON'T Want
@@ -62,7 +64,30 @@ week-1/day-X/
 ### Interview Answer Formula
 Definition → Real-life example → Code use case → Laravel real use case
 
-### Your Next Step
+### Topic-Wise Free Resources
+
+For every day, I will provide:
+- **Videos** - YouTube tutorials for visual learners
+- **Articles** - Official documentation and blogs
+- Categorized by PHP/Laravel and React topics
+
+### Resource Categories
+
+#### PHP/Laravel
+- Official PHP Documentation
+- Laravel Documentation
+- Laracasts (Free PHP for Beginners)
+- FreeCodeCamp PHP OOP Course
+
+#### React
+- React Official Docs
+- Scrimba Free React Course
+- Net Ninja React Tutorials
+- FreeCodeCamp React Full Course
+
+---
+
+## Your Next Step
 Give me:
 1. learning.txt file
 2. (optional) task.txt file
