@@ -225,6 +225,8 @@ Push notification: Hello World
 | Multiple | Multiple interfaces | Single class only |
 | Use case | Pure contract | Contract + shared logic |
 
+  # **VVI**
+-----
 **When to Use Which:**
 
 **Use Interface when:**
@@ -236,7 +238,7 @@ Push notification: Hello World
 - Need shared logic among children
 - Want some methods implemented, some not
 - Single inheritance is enough
-
+---
 ```php
 <?php
 
@@ -801,6 +803,76 @@ export default PaymentGatewayUI;
 2. Use state to show selected gateway
 3. Add payment amount input
 4. Add payment button with status
+
+---
+
+## 💻 How to Run React Code
+
+### Option 1: Create React App (Recommended)
+
+```bash
+# Create new React project
+npx create-react-app react-state-demo
+
+# Navigate to project
+cd react-state-demo
+
+# Start development server
+npm start
+```
+
+### Option 2: Vite (Faster)
+
+```bash
+# Create new React project with Vite
+npm create vite@latest react-state-demo -- --template react
+
+# Navigate to project
+cd react-state-demo
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
+
+### Where to Write Code?
+
+1. Open `src/App.jsx` (Vite) or `src/App.js` (CRA)
+2. Replace the content with your component code
+3. Save and see changes automatically at `http://localhost:5173` (Vite) or `http://localhost:3000` (CRA)
+
+### Example: src/App.jsx
+
+```jsx
+import { useState } from "react";
+
+function Counter() {
+    const [count, setCount] = useState(0);
+    
+    return (
+        <button onClick={() => setCount(count + 1)}>
+            Count: {count}
+        </button>
+    );
+}
+
+export default Counter;
+```
+
+### Run PHP Code
+
+```bash
+# Create directory
+mkdir php-interface
+
+# Create file
+# Add your PHP code
+
+# Run
+php php-interface/PaymentGateway.php
+```
 
 ---
 
