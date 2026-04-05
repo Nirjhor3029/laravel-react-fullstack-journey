@@ -71,19 +71,34 @@ For every day, I will provide:
 - **Articles** - Official documentation and blogs
 - Categorized by PHP/Laravel and React topics
 
-### Resource Categories
+### How I Find Resources
+
+I browse the web to find the best free resources for each topic:
+
+1. **Search for latest tutorials** - Find current 2025 resources
+2. **Check official docs** - php.net, react.dev
+3. **Verify quality** - Check Medium articles, well-known tutorials
+4. **Add variety** - Videos + Articles for different learning styles
+
+### Resource Sources
 
 #### PHP/Laravel
-- Official PHP Documentation
+- Official PHP Documentation (php.net)
 - Laravel Documentation
 - Laracasts (Free PHP for Beginners)
 - FreeCodeCamp PHP OOP Course
+- Oatllo (PHP OOP Tutorials)
+- FlatCoding (PHP Tutorials)
+- Medium - Technology Diaries
+- Swiftorial
 
 #### React
-- React Official Docs
+- React Official Docs (react.dev)
 - Scrimba Free React Course
 - Net Ninja React Tutorials
 - FreeCodeCamp React Full Course
+- TechAltum React Tutorials
+- ScholarHat React Tutorials
 
 ---
 
