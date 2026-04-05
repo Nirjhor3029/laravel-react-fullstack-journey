@@ -10,18 +10,50 @@ A 12-week structured learning roadmap to become a professional full stack engine
 - Deployment and DevOps
 - Interview preparation
 
+## 📚 Index
+
+### Weeks
+
+| Week | Topic | Description |
+|------|-------|-------------|
+| [Week 1](week-1/readme.md) | PHP OOP + React Basics | Classes, Objects, Inheritance, Polymorphism, Abstraction, Interface, React State |
+| [Week 2](week-2/readme.md) | Laravel Core + React Hooks | Request Lifecycle, Routing, Middleware, Controllers, Service Container, useEffect |
+| [Week 3](week-3/readme.md) | Database + CRUD UI | Migrations, Eloquent CRUD, Relationships, Eager Loading, Scopes |
+| [Week 4](week-4/readme.md) | Auth + Protected Dashboard | Breeze/Fortify, Sanctum, Policies, Roles/Permissions, Protected Routes |
+| [Week 5](week-5/readme.md) | REST API + Reusable React | REST Standards, Resources, Pagination, Filters, API Documentation |
+| [Week 6](week-6/readme.md) | Queue + Notifications | Queues, Jobs, Redis, Events, Mail Notifications, Toast UI |
+| [Week 7](week-7/readme.md) | Performance + Advanced React | Caching, Context API, Reducer, Memoization, TanStack Query |
+| [Week 8](week-8/readme.md) | File Upload + Advanced Forms | File Upload, Image Optimization, S3, Drag-Drop, Progress Bar |
+| [Week 9](week-9/readme.md) | Clean Architecture | Service Layer, Repository Pattern, DTOs, Actions, Modular Domains |
+| [Week 10](week-10/readme.md) | Testing | PHPUnit, Feature Tests, Unit Tests, Database Tests, Component Tests |
+| [Week 11](week-11/readme.md) | Deployment + CI/CD | Linux, Nginx, Docker, Supervisor, Cron, GitHub Actions |
+| [Week 12](week-12/readme.md) | Interview + System Design | Request Lifecycle, Service Container, Auth Design, Performance |
+
+---
+
+## 🚀 Quick Navigation
+
+### Week 1 - Days
+- [Day 1](week-1/day-1/readme.md) - OOP Foundation
+- [Day 2](week-1/day-2/readme.md) - Inheritance & Polymorphism
+- [Day 3](week-1/day-3/readme.md) - Abstraction & Interface
+
+---
+
 ## 📅 Progress Tracker
-- [x] Day 1 — PHP OOP + React Components
-- [ ] Day 2 — Inheritance + Props Deep Dive
-- [ ] Day 3 — Abstraction + State
 
-## 📁 Folder Structure
-- day-wise practice
-- mini-projects
-- notes
-- interview prep
+- [x] Week 1 Day 1 — PHP OOP + React Components
+- [x] Week 1 Day 2 — Inheritance + Props Deep Dive
+- [x] Week 1 Day 3 — Abstraction + State
+- [ ] Week 1 Day 4 — Traits + Static + Magic Methods + Event Handling
+- [ ] Week 1 Day 5 — SOLID Principles + Conditional Rendering
+- [ ] Week 1 Day 6 — DI + Service Container + Mini Project
+- [ ] Week 1 Day 7 — OOP Payment Gateway Project
 
-## 🚀 Tech Stack
+---
+
+## 🛠️ Tech Stack
+
 - PHP
 - Laravel
 - React
@@ -30,491 +62,15 @@ A 12-week structured learning roadmap to become a professional full stack engine
 - Docker
 - GitHub Actions
 
-# 🗂️ Starter Folder Skeleton
-
-```bash
-laravel-react-fullstack-journey/
-├── README.md
-├── day-1/
-│   ├── php-oop/
-│   ├── react-payment-ui/
-│   ├── notes.md
-│   └── interview-qa.md
-├── mini-projects/
-├── notes/
-└── interview-prep/
-```
 ---
 
+## 📝 Mentor Reference
 
-
-# 🚀 12 Weeks Integrated Laravel + React Roadmap (70% Laravel / 30% React)
-
-**Goal:** Professional Full Stack Developer (Laravel API + React Dashboard)
-**Daily Time:** 4 hours
-
-* **Laravel:** 3h
-* **React:** 1h
+[Mentor Reference](mentor-reference.md) - How I teach you (for my reference in future sessions)
 
 ---
 
-# 📅 Week 1 — PHP OOP + React Basics
-
-## [Day 1](./day-1/)
-
-* Laravel/PHP: Classes, objects, constructor, access modifiers
-* React: JSX, components
-
-## Day 2
-
-* Laravel/PHP: Inheritance, polymorphism
-* React: Props, component composition
-
-## Day 3
-
-* Laravel/PHP: Abstraction, interfaces
-* React: useState
-
-## Day 4
-
-* Laravel/PHP: Traits, static, magic methods
-* React: event handling + forms
-
-## Day 5
-
-* Laravel/PHP: SOLID principles
-* React: conditional rendering + lists
-
-## Day 6
-
-* Laravel/PHP: DI + service container concept intro
-* React: mini counter + todo
-
-## Day 7
-
-* Project: OOP payment gateway mini project + React UI wrapper
-
----
-
-# 📅 Week 2 — Laravel Core + React Hooks
-
-## Day 8
-
-* Laravel: Request lifecycle
-* React: useEffect
-
-## Day 9
-
-* Laravel: Routing + route groups
-* React: fetch API data
-
-## Day 10
-
-* Laravel: Middleware
-* React: loading & error states
-
-## Day 11
-
-* Laravel: Controllers + Form Requests
-* React: controlled forms
-
-## Day 12
-
-* Laravel: Service container + providers
-* React: custom hooks intro
-
-## Day 13
-
-* Laravel: Blade + artisan commands
-* React: reusable input components
-
-## Day 14
-
-* Project: Auth backend + login form frontend
-
----
-
-# 📅 Week 3 — Database + CRUD UI
-
-## Day 15
-
-* Laravel: migrations + seeders
-* React: table rendering
-
-## Day 16
-
-* Laravel: Eloquent CRUD
-* React: CRUD form modal
-
-## Day 17
-
-* Laravel: relationships
-* React: relational dropdown UI
-
-## Day 18
-
-* Laravel: eager loading + N+1
-* React: nested data render
-
-## Day 19
-
-* Laravel: scopes + accessors
-* React: search input debounce
-
-## Day 20
-
-* Laravel: transactions + raw SQL
-* React: pagination UI
-
-## Day 21
-
-* Project: Blog CMS API + posts dashboard
-
----
-
-# 📅 Week 4 — Auth + Protected Dashboard
-
-## Day 22
-
-* Laravel: Breeze/Fortify
-* React: login page
-
-## Day 23
-
-* Laravel: Sanctum auth
-* React: token storage + axios interceptor
-
-## Day 24
-
-* Laravel: policies + gates
-* React: protected routes
-
-## Day 25
-
-* Laravel: Spatie roles permissions
-* React: role-based sidebar
-
-## Day 26
-
-* Laravel: password reset + verification
-* React: auth flow pages
-
-## Day 27
-
-* Laravel: social auth basics
-* React: OAuth UI buttons
-
-## Day 28
-
-* Project: Role-based admin dashboard
-
----
-
-# 📅 Week 5 — REST API + Reusable React
-
-## Day 29
-
-* Laravel: REST standards
-* React: API service layer
-
-## Day 30
-
-* Laravel: resources + transformers
-* React: reusable table component
-
-## Day 31
-
-* Laravel: pagination API
-* React: server pagination
-
-## Day 32
-
-* Laravel: filters + sorting
-* React: filter UI
-
-## Day 33
-
-* Laravel: validation strategy
-* React: reusable validation hook
-
-## Day 34
-
-* Laravel: Swagger docs
-* React: API testing via UI
-
-## Day 35
-
-* Project: Product Management System
-
----
-
-# 📅 Week 6 — Queue + Notifications + React UX
-
-## Day 36
-
-* Laravel: queues + jobs
-* React: toast notifications
-
-## Day 37
-
-* Laravel: failed jobs + retries
-* React: retry action UI
-
-## Day 38
-
-* Laravel: Redis + Horizon
-* React: queue status badges
-
-## Day 39
-
-* Laravel: events/listeners
-* React: notification dropdown
-
-## Day 40
-
-* Laravel: mail notifications
-* React: inbox style UI
-
-## Day 41
-
-* Laravel: report generation job
-* React: export button UI
-
-## Day 42
-
-* Project: Async report system
-
----
-
-# 📅 Week 7 — Performance + Advanced React State
-
-## Day 43
-
-* Laravel: caching basics
-* React: Context API
-
-## Day 44
-
-* Laravel: Redis caching
-* React: reducer pattern
-
-## Day 45
-
-* Laravel: query optimization
-* React: memoization
-
-## Day 46
-
-* Laravel: route/config cache
-* React: useMemo/useCallback
-
-## Day 47
-
-* Laravel: Telescope/Debugbar
-* React: performance optimization
-
-## Day 48
-
-* Laravel: API response optimization
-* React: TanStack Query intro
-
-## Day 49
-
-* Project: CRM dashboard optimized
-
----
-
-# 📅 Week 8 — File Upload + Advanced Forms
-
-## Day 50
-
-* Laravel: file upload
-* React: file input UI
-
-## Day 51
-
-* Laravel: image optimization
-* React: preview thumbnails
-
-## Day 52
-
-* Laravel: S3 storage
-* React: upload progress bar
-
-## Day 53
-
-* Laravel: signed URLs
-* React: secure download buttons
-
-## Day 54
-
-* Laravel: media library
-* React: drag-drop uploader
-
-## Day 55
-
-* Laravel: search indexing intro
-* React: global search UI
-
-## Day 56
-
-* Project: Media manager
-
----
-
-# 📅 Week 9 — Clean Architecture + React Structure
-
-## Day 57
-
-* Laravel: service layer
-* React: feature folders
-
-## Day 58
-
-* Laravel: repository pattern
-* React: hooks folder pattern
-
-## Day 59
-
-* Laravel: DTOs
-* React: typed data mapping mindset
-
-## Day 60
-
-* Laravel: actions pattern
-* React: reusable action components
-
-## Day 61
-
-* Laravel: modular domains
-* React: layout architecture
-
-## Day 62
-
-* Laravel: clean refactor
-* React: route modules
-
-## Day 63
-
-* Project: Refactor old CMS
-
----
-
-# 📅 Week 10 — Testing
-
-## Day 64
-
-* Laravel: PHPUnit basics
-* React: component test intro
-
-## Day 65
-
-* Laravel: feature tests
-* React: form test
-
-## Day 66
-
-* Laravel: unit tests
-* React: hook test
-
-## Day 67
-
-* Laravel: database tests
-* React: mocked API test
-
-## Day 68
-
-* Laravel: queue tests
-* React: state flow tests
-
-## Day 69
-
-* Laravel: auth tests
-* React: protected route tests
-
-## Day 70
-
-* Project: 30+ tests
-
----
-
-# 📅 Week 11 — Deployment + CI/CD
-
-## Day 71
-
-* Laravel: Linux + Nginx
-* React: build process
-
-## Day 72
-
-* Laravel: Supervisor
-* React: env variables
-
-## Day 73
-
-* Laravel: cron + queues
-* React: production config
-
-## Day 74
-
-* Laravel: Docker
-* React: docker frontend
-
-## Day 75
-
-* Laravel: CI/CD GitHub Actions
-* React: build pipeline
-
-## Day 76
-
-* Laravel: VPS deployment
-* React: Vercel/Netlify deployment
-
-## Day 77
-
-* Project: Deploy full app
-
----
-
-# 📅 Week 12 — Interview + System Design
-
-## Day 78
-
-* Laravel: request lifecycle interview
-* React: rendering lifecycle
-
-## Day 79
-
-* Laravel: service container viva
-* React: state management viva
-
-## Day 80
-
-* Laravel: auth design round
-* React: dashboard architecture
-
-## Day 81
-
-* Laravel: queue system design
-* React: data flow design
-
-## Day 82
-
-* Laravel: DB optimization round
-* React: performance round
-
-## Day 83
-
-* Laravel: API scaling round
-* React: reusable component round
-
-## Day 84
-
-* Final Project: Full SaaS ERP system
-
----
-
-# 🎯 Execution Rule
+## 🎯 Execution Rule
 
 Every day:
 
@@ -528,132 +84,20 @@ This is the fastest path to become **job-ready full stack Laravel + React engine
 
 ---
 
+## 📂 Folder Structure
 
+```
+laravel-react-fullstack-journey/
+├── readme.md (this file)
+├── mentor-reference.md
+├── week-1/
+│   ├── readme.md
+│   ├── day-1/
+│   ├── day-2/
+│   └── day-3/
+├── week-2/
+├── week-3/
+└── ...
+```
 
-
-
-✅ Laravel + React Roadmap এ কোথায় এগুলো আছে
-Phase 1 → PHP OOP Foundation (Already started)
-
-এখানে cover হবে:
-
-Class / Object
-Inheritance
-Method overriding
-Polymorphism
-Abstract class
-Interface
-Static method
-Scope resolution
-Magic methods
-Traits
-SOLID basics
-
-👉 আজকে যেটা overloading / overriding শিখলা এটা এই phase
-
-এটা skip করা যাবে না.
-
-Phase 2 → Laravel Core OOP Mapping
-
-এখানে PHP OOP জিনিস Laravel এ map হবে.
-
-এখানে আসবে:
-Service Container
-Dependency Injection
-Interface binding
-Repository pattern
-DTO
-Service layer
-Form Request
-Policies
-Middleware
-Exception handler overriding
-
-👉 OOP real project use এখানেই clear হবে
-
-Phase 3 → Eloquent Deep Dive ⭐
-
-তোমার current question (static::creating) এই phase এ perfectly fit করে.
-
-এখানে থাকবে:
-
-Models
-Relationships
-Accessors / Mutators
-Model events
-boot()
-creating
-saving
-updating
-observers
-scopes
-casts
-UUID / slug auto generation
-
-👉 এই phase এ static::creating() fully clear হয়ে যাবে
-
-Phase 4 → Advanced Laravel Architecture
-
-এখানে:
-
-Events & listeners
-queues
-jobs
-caching
-scalable architecture
-clean service layer
-domain separation
-package style coding
-
-এই phase এ model events এর advanced use হবে.
-
-Phase 5 → React Integration
-
-এখানে backend concepts frontend এ connect হবে:
-
-Laravel API
-resource controllers
-DTO response
-auth flow
-React forms
-slug auto preview
-validation errors
-CRUD flow
-🎯 তোমার জন্য best serial learning
-
-তুমি serially এই order follow করো:
-
-Current
-
-✅ PHP OOP
-
-Next
-
-✅ Laravel core basics
-
-Then
-
-⭐ Eloquent lifecycle
-
-Then
-
-⭐ API + React CRUD
-
-🔥 তোমার জন্য best advice
-
-তুমি এখন random topic jump না করে roadmap serially follow করো.
-
-কারণ তুমি আজ যেটা জিজ্ঞেস করলা:
-
-static::creating
-
-এটা বুঝতে হলে আগে দরকার:
-
-static
-inheritance
-overriding
-callback
-closure
-model lifecycle
-
-সব serially build হয়.
+Keep practicing! 💪
